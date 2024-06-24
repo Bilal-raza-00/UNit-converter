@@ -1,0 +1,340 @@
+@media screen and (max-width: 1240px) {
+body {
+    background-color: rgb(231, 173, 173);
+}
+.his {
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+
+} 
+
+@media screen and (max-width: 913px)   
+{
+.input {
+    flex-direction: column;
+}
+.right {
+    width: 48%;
+}
+.right img {
+    /* padding: 10px; */
+}
+
+.inputs {
+    width: 100%;
+    padding: 4px 3px 12px;
+
+}
+
+#section ul{
+    padding: 2px 82px;
+}
+
+
+
+}
+
+@media screen and (max-width: 913px)   
+{
+
+
+
+}
+
+@media screen and (max-width: 875px)
+{
+    .right img {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 811px)
+{
+    #section a {
+        padding: 16px;
+    }
+
+    #header {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 760px)
+{
+    .right img {
+        width: 300px;
+    }
+
+    .left-Header h1{
+        font-size: 31px;
+    }
+}
+
+@media screen and (max-width: 690px)
+{
+    #section ul {
+        text-align: center;
+        padding: 5px;
+        font-size: 8px;
+        width: 33px;
+    }
+
+
+}
+
+@media screen and (max-width: 661px)
+{
+    .code {
+        width: 206px;
+    }
+
+    .food img {
+        width: 288px;
+        height: 323px;
+        border-radius: 10px;
+    }
+    .code h1 {
+        font-size: 20px;
+    }
+    .code h2
+{
+    font-size: 25px;
+
+}
+
+    .code p {
+        font-size: 15px;
+        padding: 9px;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 605px) 
+{
+    .inputs input {
+        text-align: center;
+        padding: 7px 35px;
+        width: 70px;
+        border-radius: 9px;
+    }
+
+    .inputs input, select {
+        padding: 7px 2px;
+        width: 142px;
+        border-radius: 9px;
+    }
+
+    .inputs {
+        width: 100%;
+        padding: 5px 2px;
+    }
+
+    .right img {
+        text-align: center;
+        text-align: center;
+        
+        margin: 8px;
+        width: 254px;
+    }
+
+        #secton ul {
+            padding-left: 2px 3%;
+        }
+
+      #section a{
+        padding: 15px 14px;
+      }
+    }
+
+    @media screen and (max-width: 591px) 
+    {
+        #section a {
+            padding: 8px;
+            margin: 5px;
+        }
+    }
+
+    @media screen and (max-width: 548px) 
+    {
+       #section a{
+        padding: 6px 8px;
+        margin: 1px;
+       }
+
+       .left-Header h1{
+        font-size: 24px;
+       }
+       .left-Header {
+        font-size: 19px;
+       }
+
+       .inputs {
+        font-size: 15px;
+    }
+
+     .inputs input  {
+        padding: 6px 2px;
+        width: 125px;
+        border-radius: 7px;
+     }
+
+     .inputs input, select {
+        width: 125px;
+     }
+
+     .right img {
+        width: 231px;
+     }
+
+     .left-inputs .bttn{
+        margin-left: 85px;
+        padding: 3px;
+        font-size: 11px;
+        width: 88px;
+     }
+
+     #header {
+        font-size: 20px;
+     }
+
+     .left {
+        padding-left: 2%;
+       
+     }
+    }
+
+    @media screen and (max-width: 521px) 
+    {
+        #section a {
+            padding: 3px 3px;
+            margin: 5px;
+        }
+    }
+
+    @media screen and (max-width: 509px) 
+    {
+        #section a {
+            padding: 5px 4px;
+            margin: 3px;
+        }
+
+        .right img {
+            width: 211px;
+        }
+
+        .left {
+            padding-left: 0%;
+        }
+
+        .right {
+            margin-top: 34px;
+            width: 46%;
+        }
+        
+        #super {
+            margin: 17px 33px;
+        }
+
+        .food img {
+            width: 276px;
+            height: 287px;
+            border-radius: 9px;
+        }
+
+        .code p {
+            font-size: 11px;
+            padding: 2px;
+            margin: 13px;
+        }
+
+        @media screen and (max-width: 491px) 
+        {
+            #section a {
+                padding: 12px 4.2px;
+                margin: 17%;
+                font-size: 14px;
+            }
+         }
+}
+
+@media screen and (max-width: 489px)
+{
+    .right img {
+        width: 197px;
+    }
+
+    .right {
+        margin-top: 41px;
+        width: 45%;
+    }
+
+    .inputs input, select {
+        width: 106px;
+    }
+}
+
+@media screen and (max-width: 476px)
+{
+    #section a {
+        padding: 12px 5px;
+        margin: 11%;
+        font-size: 13px;
+        /* width: 100%; */
+    }
+}
+
+@media screen and (max-width: 454px)
+{
+    .right {
+        margin-top: 45px;
+        width: 50%;
+    }
+
+    .right img {
+        width: 176px;
+    }
+}
+
+@media screen and (max-width: 489px)
+{
+    #section ul {
+        width: 100%;
+        flex-direction: column;
+}
+}
+
+@media screen and (max-width: 419px)
+{
+    .food img {
+        width: 229px;
+        height: 247px;
+        border-radius: 9px;
+    }
+
+    .code {
+        width: 41%;
+    }
+
+    .food img {
+        width: 193px;
+        height: 214px;
+        border-radius: 9px;
+    }
+
+    .code h2 {
+        font-size: 21px;
+    }
+
+    .pra {
+        width: 382px;
+        padding-left: 17px;
+    }
+}
+
+
+

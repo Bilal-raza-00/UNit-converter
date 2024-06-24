@@ -1,0 +1,423 @@
+*  {
+    margin: 0;
+    padding: 0; 
+  
+}
+
+
+
+.input {
+    display: flex;
+}
+
+#section{
+    display: flex;
+    background: url(slide1-01.jpg.webp);
+    text-align: center;
+    flex-direction: column;
+    height: 855px;
+}
+
+
+#pic img {
+    padding: 19px;
+    margin: 21px;
+}
+
+#section ul {
+    align-items: center;
+    display: flex;
+   }
+#section a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 24px;
+}
+
+#section a:hover {
+    color: rgb(211, 43, 43);
+  
+}
+
+#section ul li {
+    list-style: none;
+}
+.border{
+    border:  2px solid red;
+}
+.f-logo img{
+    padding: 23px;
+
+}
+
+#header{
+    color: white;
+    padding-top: 113px;
+    font-size: 43px;
+    text-align: center;
+    
+}
+
+#header h2{
+        padding-top: 33px;
+        letter-spacing: 11px;
+}
+#header h3{
+    font-family: "Courgette", cursive;
+}
+.btn{
+    padding: 8px 18px;
+    font-size: 14px;
+    text-align: center;
+    background-color: white;
+    color: #8a3b2c;
+    border-radius: 7px;
+    margin: 44px;
+    
+}
+
+#header.btn:hover{
+    color: #8a3b2c;
+}
+
+#super {
+    text-align: center;
+    margin: 17px 50px;
+    width: 86%;
+    padding-top: 121px;
+   /* padding-right: 522px;
+   padding-top: 45px; */
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.code .food{
+    width: 50%;
+}
+.food img{
+    background-size: cover;
+    width: 356px;
+    text-align: center;
+    /* margin: 29px; */
+    overflow: hidden;
+    height: 383px;
+    border-radius: 17px;
+    transition: all 1.1s;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px black;
+}
+.food:hover img {
+    transform: scale(1.1);
+}
+
+.food:hover {
+ -webkit-transition: all 0.1; 
+}
+
+.code h2{
+    font-size: 40px;
+    color: rgb(211, 43, 43);
+}
+
+.code h1{
+    color: rgb(8, 2, 2);
+    font-size: 34px;
+}
+.code p{
+    color: rgb(127 127 127);
+    font-size: 19px;
+    margin: 24px;
+}
+
+#oop {background: url(bg-intro-01.jpg.webp);
+     background-position: center;
+     height: 337px;
+     padding: 13px;
+    
+}
+
+#lop {
+    text-align: center;
+    padding: 116px;
+    font-weight: 30px;
+  
+}
+
+
+#oop span{
+    color: rgb(211, 43, 43);
+    text-align: center;
+    /* font-size: 38px; */
+    font-size: 40px;
+}
+
+#leo {
+    padding: 45px;
+}
+
+
+#oop h2{
+    color: white;
+  
+    font-size: 45px;
+    letter-spacing: 12px;
+    word-spacing: 15px;
+    /* padding: 150px; */
+}
+
+/* #pic-img{
+    height: 12px;
+    text-align: center;
+    width: 40%;
+}
+
+.top img{
+    padding-top: 83px;
+      height: 200px;
+}
+.top {
+    display: block;
+margin: auto;
+}
+
+.mmm {
+    padding-right: 133px;
+    padding-top: 22px;
+    right: auto;
+    padding-top: 32px;
+    /* text-align: center; */
+  
+/* } */
+
+/* .mmm p {
+margin: 14px;
+text-align: center;
+
+
+} */
+
+
+
+
+.his{
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.pra {
+    padding-left: 36px;
+}
+
+.pra {
+   color: rgb(78, 69, 69);
+}
+
+.pra h1 {
+    letter-spacing: 4px;
+    columns: rgba(109, 100, 100, 0.89);
+    font-size: 23px
+}
+
+#king img {
+    height: 253px;
+    padding-top: 4px;
+    margin: 26px;
+    border-radius: 18px;
+    /* height: 218px;
+    padding-top: 4px;
+    margin: 26px; */
+    border-radius: 18px;
+    background-size: cover;
+    width: 369px;
+    text-align: center;
+    /* margin: 29px; */
+    overflow: hidden;
+    /* height: 403px; */
+    /* border-radius: 36px; */
+    transition: all 1.1s;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px black;
+}
+#king:hover img {
+    
+        transform: scale(1.1);
+    
+/* } */
+}
+
+#last{
+    
+        padding: 109px;
+        background-color: rgb(235, 235, 235);
+        text-align: center;
+    
+}
+#last span{
+    letter-spacing: 2px;
+}
+
+#last .cls {
+    border-radius: 8px;
+    color: white;
+    padding: 8px 34px;
+    font-size: 15px;
+    margin: 11px;
+    background: black;
+}
+
+#last .fls {
+    padding: 12px 98px;
+    border-radius: 11px;
+    background: white;
+    color: #ababab;
+}
+
+#ppp {
+    padding: 50px;
+}
+
+#talha {
+    width: 98%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    padding-left: 9%;
+    width: 50%;
+}
+
+.inputs{
+    padding: 20px 0;
+    width: 80%;
+    display: flex;
+    color: #ababab;
+
+    justify-content: space-between;
+    text-align: left;
+    font-size: 20px;
+}
+
+.left-Header {
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 23px;
+    
+}
+.left-Header h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.inputs input, select{
+    padding: 10px 8px;
+    width: 160px;
+    border-radius: 4px;
+}
+
+
+.right{
+    width: 50%;
+    text-align: center;
+}
+
+.right img{
+    width: 400px;
+    border-radius: 20px;
+}
+ 
+
+.left-inputs .bttn {
+    border: black;
+    border-radius: 6px;
+    padding: 7px 7px;
+    text-align: center;
+   
+    margin-left: 138px;
+    /* margin: 15px; */
+    color: rgb(255, 255, 255);
+    width: 110px;
+    background-color: black;
+}
+
+
+
+/*#talha .ttt{
+    text-align: center;
+    
+}
+#talha {
+    text-align: center;
+ padding: 133px;
+ background-color: rgb(235, 235, 235);
+
+}
+
+#talha .alll {
+    padding: 11px;
+    width: 604px;
+}
+
+#talha h1{
+    font-size: 53px;
+    letter-spacing: 4px;
+}
+#talha h3 {
+    font-size: 39px;
+    color: rgb(211, 43, 43);
+}
+
+.yuu {
+    padding: 15px 116px;
+    border-radius: 6px;
+    color: black;
+}
+
+.anjum {
+     padding-top: 86px; 
+    padding-top: 42px;
+    margin-left: 13px;
+    text-align: center;
+    display: flex;
+
+}
+
+#rab img {
+    height: 400px;
+    width: 400px;
+    border-radius: 14px;
+
+}
+
+#anjum .mobile {
+    color: #ccbfbf;
+    margin-bottom: 26px;
+    font-size: 17px;
+    padding: 12px 40px;
+    border-radius: 8px;
+    border-spacing: 11px;
+}
+
+#anjum span {
+    font-size: 20px;
+    padding-right: 542px;
+}
+
+/* .book button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 7px 16px;
+    border-radius: 10px; */
+
